@@ -1,3 +1,4 @@
 .vscode/
 SoundVolumeView.cfg
 __pycache__/
+venv/
