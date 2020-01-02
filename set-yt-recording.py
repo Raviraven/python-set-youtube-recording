@@ -7,6 +7,7 @@ def set_yt_recording():
         obs_path_converted = str("\"" + Settings.OBSShortcutLocation + "\"")
         audacity_path_converted = str("\"" + Settings.AudacityLocation + "\"")
 
+        # subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.MicroName), str(Settings.DefaultDeviceType)])
         # subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.Name), str(Settings.DefaultDeviceType)])
         # subprocess.run(["SoundVolumeView.exe", "/SetVolume", str(Settings.Name), "50"])
         # subprocess.run(["SoundVolumeView.exe", "/Unmute", str(Settings.Name)])
