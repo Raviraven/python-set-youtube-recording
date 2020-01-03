@@ -1,3 +1,3 @@
 @echo off
-echo test
+py set-yt-recording.py
 exit /B 0
