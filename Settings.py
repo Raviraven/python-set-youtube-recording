@@ -1,8 +1,8 @@
-Name="{0.0.0.00000000}.{684a852e-f754-4924-b6b7-ac57e084bf0a}"
+SpeakersName="{0.0.0.00000000}.{dadcdff8-9daa-456e-9ad8-dcc4a6c2b28f}"
+MicroName="{0.0.1.00000000}.{73c9dd8e-ddcc-43d4-ba2d-9b3a91fc85c8}"
 # 0 for console
 # 1 for multimedia
 # 2 for communications
-DefaultDeviceType=1
-OBSShortcutLocation="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\OBS Studio\OBS Studio (64bit).lnk"
-AudacityLocation=""
-MicroName=""
+DefaultDeviceType=2
+OBSShortcutLocation=r"E:\Programy\OBS Win 10\obs-studio\bin\64bit\obs64.lnk"
+AudacityLocation=r"E:\Programy\Audacity Win10\\audacity.exe"
