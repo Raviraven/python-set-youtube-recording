@@ -1,20 +1,17 @@
 import Settings
-import subprocess
 import os
+import subprocess
+
 
 def set_yt_recording():
     try:
-        obs_path_converted = str("\"" + Settings.OBSShortcutLocation + "\"")
-        audacity_path_converted = str("\"" + Settings.AudacityLocation + "\"")
+        subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.MicroName), str(Settings.DefaultDeviceType)])
+        subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.SpeakersName), str(Settings.DefaultDeviceType)])
+        subprocess.run(["SoundVolumeView.exe", "/SetVolume", str(Settings.SpeakersName), "50"])
+        subprocess.run(["SoundVolumeView.exe", "/Unmute", str(Settings.SpeakersName)])
 
-        # subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.MicroName), str(Settings.DefaultDeviceType)])
-        # subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.Name), str(Settings.DefaultDeviceType)])
-        # subprocess.run(["SoundVolumeView.exe", "/SetVolume", str(Settings.Name), "50"])
-        # subprocess.run(["SoundVolumeView.exe", "/Unmute", str(Settings.Name)])
-
-        # to change, only one works at one time
-        os.system(obs_path_converted)
-        os.system(audacity_path_converted)
+        os.startfile(Settings.OBSShortcutLocation)
+        os.startfile(Settings.AudacityLocation)
     except Exception as error:
         print("An error occured: {0}".format(error))
 
