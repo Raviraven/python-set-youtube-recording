@@ -7,7 +7,7 @@ def set_yt_recording():
     try:
         subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.MicroName), str(Settings.DefaultDeviceType)])
         subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.SpeakersName), str(Settings.DefaultDeviceType)])
-        subprocess.run(["SoundVolumeView.exe", "/SetVolume", str(Settings.SpeakersName), "50"])
+        subprocess.run(["SoundVolumeView.exe", "/SetVolume", str(Settings.SpeakersName), str(Settings.VolumeLevel)])
         subprocess.run(["SoundVolumeView.exe", "/Unmute", str(Settings.SpeakersName)])
 
         os.startfile(Settings.OBSShortcutLocation)

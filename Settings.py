@@ -6,3 +6,4 @@ MicroName="{0.0.1.00000000}.{73c9dd8e-ddcc-43d4-ba2d-9b3a91fc85c8}"
 DefaultDeviceType=1
 OBSShortcutLocation=r"E:\Programy\OBS Win 10\obs-studio\bin\64bit\obs64.lnk"
 AudacityLocation=r"E:\Programy\Audacity Win10\\audacity.exe"
+VolumeLevel=30
