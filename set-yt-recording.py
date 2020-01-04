@@ -9,7 +9,7 @@ def set_yt_recording():
         subprocess.run(["SoundVolumeView.exe", "/SetDefault", str(Settings.SpeakersName), str(Settings.DefaultDeviceType)])
         subprocess.run(["SoundVolumeView.exe", "/SetVolume", str(Settings.SpeakersName), str(Settings.VolumeLevel)])
         subprocess.run(["SoundVolumeView.exe", "/Unmute", str(Settings.SpeakersName)])
-
+        os.system("taskmgr")
         os.startfile(Settings.OBSShortcutLocation)
         os.startfile(Settings.AudacityLocation)
     except Exception as error:
