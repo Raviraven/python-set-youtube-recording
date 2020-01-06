@@ -7,3 +7,4 @@ DefaultDeviceType=1
 OBSShortcutLocation=r"E:\Programy\OBS Win 10\obs-studio\bin\64bit\obs64.lnk"
 AudacityLocation=r"E:\Programy\Audacity Win10\\audacity.exe"
 VolumeLevel=30
+TaskManagerLocation=r"C:\Windows\System32\Taskmgr.exe"
