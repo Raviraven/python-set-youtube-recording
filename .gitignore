@@ -3,3 +3,4 @@ SoundVolumeView.cfg
 __pycache__/
 venv/
 .idea/
+.vscode/
