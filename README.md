@@ -11,6 +11,8 @@ Update settings with values which suits you
     DefaultDeviceType=
     OBSShortcutLocation=""
     AudacityLocation=""
+    RavBotekLocation=r"";
+
 
 Speakers and micro name are names or ids from Sound Volume View and are used to set them to default devices and volume of speakers.
 Default device type - used for setting as default:
@@ -21,6 +23,7 @@ Default device type - used for setting as default:
     
 OBS shortcut location - path to the obs shortcut location (obs.lnk) - doesn't work with obs.exe.
 Audacity location - path to the audacity location (audacity.exe)
+RavBotek location - path to the chat bot (in my case - written by me, but if u have some .exe file of chat bot from other sources - paste here its location!)
 
 ### Run
 
