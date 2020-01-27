@@ -29,7 +29,7 @@ RavBotek location - path to the chat bot (in my case - written by me, but if u h
 
     1. Donwload scripts
     2. Configure settings
-    3. Run set_yt_recording.bat
+    3. Choose which file you want to run set_yt_recording.bat or set_twitch_stream.bat
 
 
 ### URLs
