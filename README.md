@@ -6,12 +6,12 @@ Runs OBS and Audacity and sets default microphone and speakers with volume set t
 ### Settings
 Update settings with values which suits you
 
-    SpeakersName=""
-    MicroName=""
-    DefaultDeviceType=
-    OBSShortcutLocation=""
-    AudacityLocation=""
-    RavBotekLocation=r"";
+    DEFAULT_SPEAKER_ID=""
+    DEFAULT_MICROPHONE_ID=""
+    DEFAULT_DEVICE_TYPE=
+    OBS_SHORTCUT=""
+    AUDIO_SOFTWARE_LOCATION=""
+    RAVBOTEK_LOCATION=r"";
 
 
 Speakers and micro name are names or ids from Sound Volume View and are used to set them to default devices and volume of speakers.
