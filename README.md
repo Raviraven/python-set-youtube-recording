@@ -1,6 +1,6 @@
 # Set youtube recording
 
-Script written for automating youtube recording based on app written by NirSoft - Sound Volume View. 
+Script written for automating youtube recording based on app written by NirSoft - Sound Volume View.  
 Runs OBS and Audacity and sets default microphone and speakers with volume set to 50%.
 
 ### Settings
@@ -21,16 +21,28 @@ Default device type - used for setting as default:
     1 - multimedia
     2 - communications
     
-OBS shortcut location - path to the obs shortcut location (obs.lnk) - doesn't work with obs.exe.
-Audacity location - path to the audacity location (audacity.exe)
-RavBotek location - path to the chat bot (in my case - written by me, but if u have some .exe file of chat bot from other sources - paste here its location!)
+OBS shortcut location - path to the obs shortcut location (obs.lnk)  
+Audacity location - path to the audacity location (audacity.exe)  
+RavBotek location - path to the chat bot (in my case - written by me, but if u have some .exe file of chat bot from other sources - paste here its location!)  
 
 ### Run
 
-    1. Donwload scripts
-    2. Configure settings
-    3. Choose which file you want to run set_yt_recording.bat or set_twitch_stream.bat
+1. Donwload files from repository  
+2. Configure settings.py file  
+3. Run chosen python script  
+    - using terminal  
+        - Go into scripts directory  
+        - Run 
+        ```
+        python set-yt-recording.py
+        ```  
+    - using .bat scripts
+        - open scripts directory 
+        - run chosen .bat script (from terminal or by double clicking it)
 
+### Known bugs
+
+- Cant run obs from obs.exe file. Solution - create shortcut and set its location in settings file
 
 ### URLs
 
